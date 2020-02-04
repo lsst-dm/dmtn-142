@@ -59,15 +59,17 @@
    This document is intended as a starting place for generating a set of policies and recommendations for teams using notebooks to do analysis and produce tooling.
 
 .. Add content here.
+
 Notebooks as a platform for development
 =======================================
 
 Notebooks provide a nice environment for exploratory and pedagogical code development.
 Some reasons they are good for this type of work are:
-  * They incorporate tab completion and easy access to help information
-  * Documentation can reside with the code via markdown cells
-  * Cells can be executed in arbitrary order, so the entire script doesn't need to be run to iterate on a particular part of the notebook
-  * Code in cells can be flexible.  E.g. one cell can execute bash commands while the next cell contains python
+
+- They incorporate tab completion and easy access to help information
+- Documentation can reside with the code via markdown cells
+- Cells can be executed in arbitrary order, so the entire script doesn't need to be run to iterate on a particular part of the notebook
+- Code in cells can be flexible.  E.g. one cell can execute bash commands while the next cell contains python
 
 The same reasons notebooks perform well in exploratory scenarios are the reasons they are somewhat non-optimal for rigorous software engineering.
 A concrete example is that running cells in arbitrary order makes it easy to end up with a notebook in a state where it will not successfully complete when run sequentially.
