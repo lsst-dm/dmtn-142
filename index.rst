@@ -73,6 +73,7 @@ Some reasons they are good for this type of work are:
 
 The same reasons notebooks perform well in exploratory scenarios are the reasons they are somewhat non-optimal for rigorous software engineering.
 A concrete example is that running cells in arbitrary order makes it easy to end up with a notebook in a state where it will not successfully complete when run sequentially.
+It is also possilbe for a notebook to return without error when cells are run sequentially, but give erroneous results because the cells were run in a different order when developing the notebook.
 This makes testing tricky.
 
 Commissioning and science validation are, by their nature, exploratory, analytical exercises.
@@ -136,6 +137,11 @@ Whether notebooks are cleared before committing, will depend on the intentions o
 - Clearing outputs will reduce the overall size, make the diff cleaner, and makes the notebook clean for the next person to execute
 - Leaving outputs in the committed notebook will save time since the notebook does not need to be executed to see plots etc.
   Leaving outputs also allows for robust testing since ``nbeval`` can compare outputs from the tested notebook match those of the input notebook.
+  A convention was adopted in the context of data management acceptance testing of keeping both the raw notebook and the notebook containing outputs in separate directories.
+  See `DMTR-201`_ and `DMTR-161`_ as examples.
+
+.. _DMTR-201: https://github.com/lsst-dm/DMTR-201
+.. _DMTR-161: https://github.com/lsst-dm/DMTR-161
 
 Notebooks should specify what platform they are intended for: e.g. LSP at LDF, lab, etc.
 Notebooks in ``notebooks/prod`` must be executable on the LSP at the LDF since that is where continuous integration will be carried out.
