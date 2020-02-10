@@ -113,12 +113,15 @@ Notes on notebook review
 Notebooks should be reviewed by someone other than the original author.
 The review should look for several things:
 
-- The notebook should adhere to a standard templated format (not defined here).
+- The notebook should adhere to a standard templated format.
+  An `example`_ of such a format is in use by the "StackClub".
   At the very least, the notebook should state the end product from the notebook, the responsible author, and the version of the stack it is compatible with (perhaps computed by the CI system).
 - When possible, the notebook should run sequentially from top to bottom.
 - The reviewer should also look at the markdown cells for accuracy.
 - Any duplication of code between this and another notebook should be identified and factored out into a module.
 - Reviews should attempt to promote accepted idioms for common tasks.
+
+.. _example: https://github.com/LSSTScienceCollaborations/StackClub/blob/master/GettingStarted/templates/template_Notebook.ipynb
 
 General suggestions
 -------------------
