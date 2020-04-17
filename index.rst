@@ -46,17 +46,18 @@
 
 .. note::
 
-   **This technote is not yet published.**
+Introduction
+============
 
-   We frequently do analysis in notebooks, but then the code needs to be shared in other contexts.
-   While it's possible to import code from notebooks, factoring shared code into libraries is a more maintainable option.
-   This technote lays out suggestions for best practices when writing code in a hybrid interactive analysis/shared library mode.
+We frequently do analysis in notebooks, but then the code needs to be shared in other contexts.
+While it's possible to import code from notebooks, factoring shared code into libraries is a more maintainable option.
+This technote lays out suggestions for best practices when writing code in a hybrid interactive analysis/shared library mode.
 
-   Over the last 18 months, we have seen a rise in the usage of the notebook aspect of the LSST Science Platform.
-   As more users have come to the platform, the number of notebooks has also increased.
-   This has happened relatively organically with only passing thought lent to how to organize, grow, and test the ecosystem of tools developed through notebooks.
+Over the last 18 months, we have seen a rise in the usage of the notebook aspect of the LSST Science Platform.
+As more users have come to the platform, the number of notebooks has also increased.
+This has happened relatively organically with only passing thought lent to how to organize, grow, and test the ecosystem of tools developed through notebooks.
 
-   This document is intended as a starting place for generating a set of policies and recommendations for teams using notebooks to do analysis and produce tooling.
+This document is intended as a starting place for generating a set of policies and recommendations for teams using notebooks to do analysis and produce tooling.
 
 .. Add content here.
 
