@@ -6,18 +6,18 @@
 series: "DMTN"
 
 # Document number, as a string. It should be three digits, padded with leading zeros
-serial_number: "142"
+serial_number: "155"
 
 # Serial number of the document. E.g. SQR-001
 # NOTE: this field is *planned* for deprecation
-doc_id: "DMTN-142"
+doc_id: "DMTN-155"
 
 # Title of the document, without the series/serial designation
-doc_title: "From Notebook to Library: Dealing with analysis code"
+doc_title: "Interim Model for Community Support"
 
 # Author names, ordered as a list. Each author name should be formatted as 'First Last'
 authors:
-  - "Simon Krughoff"
+  - "Melissa L. Graham, Leanne P. Guy, John Swinbank, and the DM System Science Team"
 
 # Current document revision date, YYYY-MM-DD
 # Only set this field if you need to manually fix the revision date;
@@ -37,7 +37,7 @@ authors:
 copyright: "2020, Association of Universities for Research in Astronomy, Inc. (AURA)"
 
 # Description. A short, 1-2 sentence statemement used by document indices.
-description: "We frequently do analysis in notebooks, but then the code needs to be shared in other contexts.  While it's possible to import code from notebooks, factoring shared code into libraries is a more maintainable option.  This technote lays out suggestions for best practices when writing code in a hybrid interactive analysis/shared library mode."
+description: "This tech note provides an interim support model as a stepping-stone towards this future operations-era model. Its goal is to provide guidelines for the DM team in supporting and responding to questions from the community in construction, and to transition from the current informal and ad-hoc support provided via Slack, to the more sustainable model envisaged in operations."
 
 # Abstract, if available
 # abstract: >
@@ -47,11 +47,11 @@ description: "We frequently do analysis in notebooks, but then the code needs to
 #           You can have multiple paragraphs too.
 
 # URL where this document is published by Read the Docs. e.g. http://sqr-001.lsst.codes
-url: "https://dmtn-142.lsst.io"
+url: "https://dmtn-155.lsst.io"
 
 # LSST Docushare URL, if authoritative versions of this are are stored there.
 # Leave as an empty string or comment out this key if there is no Docushare URL.
 docushare_url: ""
 
 # GitHub repo URL
-github_url: "https://github.com/lsst-dm/dmtn-142"
+github_url: "https://github.com/lsst-dm/dmtn-155"
